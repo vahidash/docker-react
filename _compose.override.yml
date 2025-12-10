@@ -1,0 +1,7 @@
+# The problem still persists. Check the entrypoint of compose file.
+services:
+  tests:
+    build: 
+      context: .
+      dockerfile: Dockerfile.dev
+    command: npm run test
